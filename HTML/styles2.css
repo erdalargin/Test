@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(247, 181, 194);
+    color:rgb(6, 41, 41);
+    font: 30px verdana;
+}
+
+p {
+    background-color: cornflowerblue;
+    font-size: smaller;
+    color:rgb(25, 15, 35);
+    font-weight: bolder;
+}
+
+div{
+    width:fit-content;
+    height:fit-content;
+    background-image: url(Files/bg.jpg);
+}
+img{
+    width:200px;
+    height: 200px;
+    border: 6px solid ;
+    border-radius: 50px 20px ;
+    margin: 50px;
+    padding: 50px;
+    background-color: brown;
+}
+fieldset{ 
+    border:6px solid dotted;
+    background-image: url(Files/342f928327dfb110426b9e846bbad6a3.gif);
+}
+
+.brd{
+
+    border: 15px solid;
+    border-radius: 75px 30px;
+    font-size: larger ;
+    text-align: center;
+
+}
+#ozel{
+    text-decoration: underline;
+    text-align: justify;
+    color: aliceblue;
+    background-color: brown;
+    border: 6px solid ;
+    padding: 40px;
+    margin: 40px;
+    letter-spacing: 5px;
+    line-height: 50px;
+}

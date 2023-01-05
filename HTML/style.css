@@ -1,0 +1,49 @@
+body{
+    background-color:bisque;
+}
+p{
+    color:aqua; 
+    background-color:blueviolet; 
+    font-size:30px
+}
+h1{
+    background-color:brown; 
+    font:18px 'Tahoma';
+    text-align:center
+
+}
+h2{
+    color:aquamarine;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.my-class{
+    color:#000000;
+    font-family:monospace;
+    font-weight:bolder;
+    font-style:oblique;
+    font-size:40px;
+}
+#my-id{
+    color:chartreuse;
+    font-size:200%;
+    background-image: url(Files/bg.jpg);
+}
+#second-id{
+    font:'tahoma'
+}
+li.my-class{
+    color: darkgreen;
+}
+h1:hover{
+    color: cadetblue;
+    font-size: xx-large;
+}
+
+input:hover{
+    color: blueviolet;
+    background:chartreuse ;
+}
+   
+}

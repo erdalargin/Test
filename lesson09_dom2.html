@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .myClass{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p class="myClass">Merhaba Dünya!</p>
+   <div class="myClass1"> Hello</div>
+    <input id="myClass3" type="text" name="" value="Esma" placeholder="adinizi giriniz">
+    <p id = "myId">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi perferendis vero similique voluptates dignissimos quis ratione fugit! Quo, unde tempore nihil a repellat iste neque error porro consectetur numquam reprehenderit?</p>
+
+    <input type="text" placeholder="adinizi giriniz">
+   
+   <script>
+    let test = document.querySelector(".myClass").innerHTML;//querySelector ile ilk karsilastigini alir.
+    console.log(test);// Merhaba Dünya!--> consola yazar.
+    
+    document.querySelector(".myClass").innerText = "<b>Merhaba Batch 118</b>"//<b>Merhaba Batch 118</b> yazar
+    document.querySelector(".myClass1").innerHTML = "<b>Merhaba Batch 118</b>";//bold uyguladı
+    
+    let myName = document.querySelector("#myClass3");// input burada. input icini 'value 'ile cekiyoruz/atiyoruz.
+    myName.value = "sedat";// form elementlerinden birinin degerini degistirmek icin value kullanilir. 
+
+    document.write("Bu bir deneme yazisidir.");// Direk arayüzde yazmamızı saglar. 
+    
+    document.getElementById('myId').style.color="red";//getElementById elemente Id ile ulasir.
+    document.getElementById('myId').style.background="yellow";
+    let ad_soyad = "ozlem tekin";
+    document.getElementById('myId').innerHTML= `Benim adim ${ad_soyad}`;
+    //Benim adim ozlem tekin
+    
+    </script>
+</body>
+</html>

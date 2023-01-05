@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+/* aritmatiksel operatorler +,-,*,/,++,--,**,%
+ % isareti mod alir, yani kalani verir
+ x++ . post increment
+ ++x  pre increment
+ y-- post decrement
+ --y . pre decrement
+*/
+
+let x=12;
+let y=5;
+console.log(x++);//12
+console.log(x);//13
+console.log(++x);//14
+
+x+=5;
+console.log(x);//19
+
+x+=1;//20
+x/=2;
+console.log(x);
+
+console.log(y--);//5
+console.log(y);//4
+console.log(--y);//3
+
+y%=3;
+console.log(y);//0
+y++;
+console.log(y**3)// bir uzeri 3 = 1
+
+console.log(x**3);// 10 uzeri 3= 1000
+
+console.log(x**-2);// 0.01 negatif olarak ust alir.
+
+const num1=5;
+const num2='5';
+
+let toplam=num1+num2;
+console.log(toplam);// concat yapar. 55 olur. ama ellibes degil. 
+//sadece toplamada 'concat' yapar. digerlerinde matematiksel kabul eder.
+
+let toplam2=num1+Number(num2);
+console.log(toplam2);// 10 olur. 'Number' string i number a cevirir.
+//JS de 'fonksiyon' diyoruz.
+
+let carpim=num1*num2;
+console.log(carpim);// 25
+
+let bol=num1/num2;
+console.log(bol);// 25
+
+const k1=30;
+const k2='20';
+console.log('Dikdortgenin Alani: '+ k1*k2);//600
+console.log('Dikdortgenin cevresi: '+ 2*k1+2*k2);//6040
+console.log('Dikdortgenin cevresi: '+ (2*k1+2*k2))// 100 parantez ve islem onceliginden dolayi 100 olur.
+
+
+    </script>
+</body>
+</html>

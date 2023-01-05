@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <fieldset style="background-color:rgba(0, 0, 255, 0.082) ;">
+<input type="number" name="" id="fiyat" value="">
+<button onclick="indirim()">Hesapla</button>
+<p id="sonuc">Sonuc:</p>
+</fieldset> 
+<script>
+
+function indirim(){
+
+    let girilenFiyat= document.getElementById('fiyat').value;
+
+    if(girilenFiyat>500){
+     girilenFiyat=girilenFiyat-girilenFiyat*0.10
+    }else if(girilenFiyat>300){
+     girilenFiyat=girilenFiyat-girilenFiyat*0.07
+    }else{
+        girilenFiyat=girilenFiyat-girilenFiyat*0.05
+    }
+
+    document.getElementById('sonuc').innerHTML=` Sonuc : ${girilenFiyat}`;
+
+}
+
+
+</script>
+
+</body>
+</html>

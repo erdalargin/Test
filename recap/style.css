@@ -1,0 +1,18 @@
+.counterDiv {
+    border: 2px solid rgb(200, 200, 200);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2019/03/03/16/16/landscape-4032192_960_720.jpg");
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.value-style {
+    font-size: 45px;
+    font-family: fantasy;
+}
+
+.buttons {
+    padding: 15px;
+}

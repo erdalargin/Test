@@ -1,0 +1,37 @@
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+font-weight: bold;
+text-align: justify;
+
+}
+.mavi{
+
+    background-color: royalblue;
+    width: 300px;px;
+    padding: 30px;
+    margin-top: 20px;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+.pembe{
+
+    background-color: rgb(234, 43, 183);
+    width:300px;
+    padding: 30px;
+    margin-top: 20px;
+    position: fixed;
+    top: 10px;
+    right: 320;
+}
+.turuncu{
+
+    background-color: rgb(226, 107, 38);
+    width:300px;
+    padding: 30px;
+    margin-top: 20px;
+    position: fixed;
+    top: 10px;
+    right: 640px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>ternary- If ornegi</h3>
+    <input type="number" id="age">
+    <button onclick="myFunction()">TIKLA</button>
+    <p id="Test"></p>
+
+    <script>
+        function myFunction(){
+
+            let myAge=document.getElementById("age").value;
+            let voteable;
+            if(isNaN(myAge)){ // isNaN==> number mi degil mi diye bakar. Nan= (Not a Number)
+                
+                voteable="Not a Number!"
+
+            }else{
+
+                voteable=(myAge>17) ? "Oy verebilirsiniz!" : "Oy veremezsiniz!"
+            }
+            document.getElementById('Test').innerHTML=voteable;
+        }
+
+
+    </script>
+
+
+</body>
+</html>
